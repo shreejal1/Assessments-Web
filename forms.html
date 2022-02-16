@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel=stylesheet type=text/css href=formcss.css>
+		<meta name=viewport content="width=device-width, initial-scale=1.0">
+		<title>Form For Registration|SHREEJAL|</title>
+	</head>
+	<body>
+		<header><h2>FILL UP THE FOLLOWING FORM TO REGISTER YOURSELF</h2></header>
+		<h5>All the fields are mandatory*</h5>
+		<form>
+			<fieldset>
+			<legend>NAME</legend>
+			<div class=name>
+				Firstname:<input type="text" name="firstname">
+				Lastname:<input type=text name=lastname>
+				<input type=reset value=Clear>
+			</div>
+			</fieldset>
+			<div class=contact>
+				Email-Address:<input type=text name=email_id>
+				<input type=reset value=Clear>
+			</div>
+			<div class=security>
+				Username:<input type=text name=username>
+				Password:<input type=password name=pass>
+				<input type=reset value=Clear>
+			</div>
+			<div class=gender>
+				Gender:
+				<select name=gender>
+					<option value=male>Male</option>
+					<option value=female>Female</option>
+					<option value=others>Others</option>
+			    </select>
+			</div>
+			<div class=age>
+				DOB:<input type=date name=dob max=2022-02-15>
+				<input type=reset value=Clear>
+			</div>
+			<div class=footer>
+				<input type=reset value=Clear_All>
+				<input type=submit value=SUBMIT>
+			</div>
+		</form>
+	</body>
+
+</html>
